@@ -24,7 +24,7 @@ var server = http.createServer(function(request, response){
   if(path === '/'){
     response.statusCode = 200
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
-    response.write(`<a href="http://localhost:8888/x"><h1 style="color:red">我是h1标题</h1></a>`)
+    response.write(`<a href="http://1.12.252.18:8888/x"><h1 style="color:red">我是h1标题</h1></a>`)
     response.end()
 //     response.statusCode = 200
 //     response.setHeader('Content-Type', 'text/html;charset=utf-8')
